@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+
+    gap: 3em;
+    align-items: center;
+    justify-items: end ;
+}
+
+.current {
+    margin: 0;
+    font-size: 3em;
+}
+
+.link {
+    font-size: 2.5em;
+}
