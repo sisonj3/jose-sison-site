@@ -14,7 +14,7 @@ export default function Home() {
             <main>
                 <div>
                     <h2>Software Developer - Full Stack</h2>
-                    <p>Professional Headline</p>
+                    <p>Always move forward. Never stop learning.</p>
                 </div>
                 
                 <div>
