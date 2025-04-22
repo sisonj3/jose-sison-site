@@ -12,8 +12,11 @@ export default function Home() {
             <NavBar />
 
             <main>
-                <h2>Software Developer - Full Stack</h2>
-
+                <div>
+                    <h2>Software Developer - Full Stack</h2>
+                    <p>Professional Headline</p>
+                </div>
+                
                 <div>
                     <h3>Projects</h3>
 
