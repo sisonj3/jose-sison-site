@@ -15,13 +15,16 @@ export default function Home() {
                 <div>
                     <h2>Software Developer that's always learning and creating</h2>
                     <p>
+                        I like to build projects from the ground up. Experiencing new challenges is merely a part of the learning process.
+                        Anything can be created, it's just a matter of how.
+                    </p>
+                    <p>
                         I'm Jose, a Computer Science graduate from the University of Nevada, Las Vegas.
                         I first began programming in 2014-2015 during my sophomore year in the Video Game Design
                         program at Southwest Career and Technical Academy. I've kept on learning and improving my abilities since then.
                         I'm always pushing myself to be better whether it's mentally with programming or physically in the gym.
                     </p>
                 </div>
-                <div>Professional Summary</div>
                 <div>
                     <p>Accolades</p>
                     <img src={null} alt="1st Place Award" />
