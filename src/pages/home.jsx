@@ -23,8 +23,13 @@ export default function Home() {
                     <div>
                         <h4><a href="https://zzz-planner.onrender.com/login">Zenless Zone Zero Upgrade Planner</a></h4>
 
-                        <img src={null} alt="Screenshot" />
-
+                        <div className='zzz_sc'>
+                            <img src="/zzz-planner-agents.png" alt="Screenshot" />
+                            <img src="/zzz-planner-agents-settings.png" alt="Screenshot" />
+                            <img src="/zzz-planner-loadouts.png" alt="Screenshot" />
+                            <img src="/zzz-planner-inventory.png" alt="Screenshot" />
+                        </div>
+                        
                         <p>Brief site description</p>
 
                         <div>
