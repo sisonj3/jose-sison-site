@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import NavBar from '../components/navigation';
+import '../styles/about.css';
 
 export default function Home() {
     
@@ -25,10 +26,25 @@ export default function Home() {
                         I'm always pushing myself to be better whether it's mentally with programming or physically in the gym.
                     </p>
                 </div>
-                <div>
-                    <p>Accolades</p>
-                    <img src={null} alt="1st Place Award" />
-                    <img src={null} alt="Sustainability Award" />
+                <div className='accolades'>
+                    <h3>Accolades</h3>
+                    
+                    <div>
+                        <h4>Fred & Harriet Cox Senior Design Competition</h4>
+                        <h5>Video Game for Students with Disabilities</h5>
+
+                        <div>
+                            <img src="/1stPlace.jpg" alt="1st Place Award" />
+                            <p>1st Place</p>
+                        </div>
+                        
+                        <div>
+                            <img src="/SustainabilityAward.jpg" alt="Sustainability Award" /> 
+                            <p>Sustainability Award</p>
+                        </div>
+                        
+                    </div>
+                    
                 </div>
                 <a href="https://drive.google.com/file/d/138lc0DMG8xH6Ih0mDE89AgiqvoZfDtVu/view?usp=sharing">Resume</a>
             </main>

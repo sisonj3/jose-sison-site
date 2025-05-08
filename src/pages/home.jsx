@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import NavBar from '../components/navigation';
+import "../styles/home.css";
 
 export default function Home() {
     
@@ -30,7 +31,7 @@ export default function Home() {
                             <img src="/zzz-planner-inventory.png" alt="Screenshot" />
                         </div>
                         
-                        <p>Brief site description</p>
+                        <p>Progress planner for the game Zenless Zone Zero. Stay organized while progressing through the game.</p>
 
                         <div>
                             <a href="https://github.com/sisonj3/zzz-planner-client.git">Front End Repository</a>
