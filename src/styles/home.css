@@ -1,4 +1,25 @@
+.centered-text {
+    text-align: center;
+}
+
+.zzz_sc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 5px;
+
+    width: 100%;
+}
+
 .zzz_sc img {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
+}
+
+.repos {
+    display: flex;
+
+    gap: 2em;
+    justify-content: center;
 }
