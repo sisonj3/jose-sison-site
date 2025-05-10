@@ -13,7 +13,7 @@ export default function Home() {
             <NavBar />
 
             <main>
-                <div>
+                <div className='margin_em'>
                     <h2>Software Developer that's always learning and creating</h2>
                     <p>
                         I like to build projects from the ground up. Experiencing new challenges is merely a part of the learning process.
@@ -26,34 +26,41 @@ export default function Home() {
                         I'm always pushing myself to be better whether it's mentally with programming or physically in the gym.
                     </p>
                 </div>
-                <div className='accolades'>
+
+                <div className='accolades centered-text'>
                     <h3>Accolades</h3>
                     
                     <div>
                         <h4>Fred & Harriet Cox Senior Design Competition</h4>
                         <h5>Video Game for Students with Disabilities</h5>
 
-                        <div>
-                            <img src="/1stPlace.jpg" alt="1st Place Award" />
-                            <p>1st Place</p>
-                        </div>
-                        
-                        <div>
-                            <img src="/SustainabilityAward.jpg" alt="Sustainability Award" /> 
-                            <p>Sustainability Award</p>
+                        <div className='flex_gap justify_center'>
+                            <div>
+                                <img src="/1stPlace.jpg" alt="1st Place Award" />
+                                <p>1st Place</p>
+                            </div>
+                            
+                            <div>
+                                <img src="/SustainabilityAward.jpg" alt="Sustainability Award" /> 
+                                <p>Sustainability Award</p>
+                            </div>
                         </div>
                         
                     </div>
                     
                 </div>
-                <a href="https://drive.google.com/file/d/138lc0DMG8xH6Ih0mDE89AgiqvoZfDtVu/view?usp=sharing">Resume</a>
             </main>
 
-            <footer>
+            <footer className='centered-text'>
                 <h2>Contact Me</h2>
                 <p>Email: joseaurelio.sison@alumni.unlv.edu</p>
-                <a href="https://github.com/sisonj3">GitHub</a>
-                <a href="https://www.linkedin.com/in/jose-aurelio-sison-34379326b/">LinkedIn</a>
+
+                <div className='flex_gap justify_center'>
+                    <a href="https://github.com/sisonj3">GitHub</a>
+                    <a href="https://www.linkedin.com/in/jose-aurelio-sison-34379326b/">LinkedIn</a>
+                    <a href="https://drive.google.com/file/d/138lc0DMG8xH6Ih0mDE89AgiqvoZfDtVu/view?usp=sharing">Resume</a>
+                </div>
+                
             </footer>
         </>
     )

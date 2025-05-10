@@ -21,7 +21,7 @@ export default function Home() {
                 <div>
                     <h3 className='centered-text'>Projects</h3>
 
-                    <div className='zzz_planner centered-text'>
+                    <div className='zzz_planner centered-text margin_em'>
                         <h4><a href="https://zzz-planner.onrender.com/login">Zenless Zone Zero Progress Planner</a></h4>
 
                         <div className='zzz_sc'>

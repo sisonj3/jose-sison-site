@@ -2,3 +2,30 @@
     width: 300px;
     height: auto;
 }
+
+.accolades p {
+    margin-top: 0;
+}
+
+.flex_gap {
+    display: flex;
+    gap: 1em;
+}
+
+.justify_center {
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+.margin_em {
+    margin: 2em;
+}
