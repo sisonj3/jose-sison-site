@@ -24,13 +24,15 @@ export default function Home() {
                     <div className='zzz_planner centered-text margin_em'>
                         <h4><a href="https://zzz-planner.onrender.com/login">Zenless Zone Zero Progress Planner</a></h4>
 
-                        <div className='zzz_sc'>
-                            <img src="/zzz-planner-agents.png" alt="Screenshot" />
-                            <img src="/zzz-planner-agents-settings.png" alt="Screenshot" />
-                            <img src="/zzz-planner-loadouts.png" alt="Screenshot" />
-                            <img src="/zzz-planner-inventory.png" alt="Screenshot" />
+                        <div className='grid-container'>
+                            <div className='zzz_sc'>
+                                <img src="/zzz-planner-agents.png" alt="Screenshot" />
+                                <img src="/zzz-planner-agents-settings.png" alt="Screenshot" />
+                                <img src="/zzz-planner-loadouts.png" alt="Screenshot" />
+                                <img src="/zzz-planner-inventory.png" alt="Screenshot" />
+                            </div>
                         </div>
-                        
+                                                
                         <p>Progress planner for the game Zenless Zone Zero. Stay organized while progressing through the game.</p>
 
                         <div className='repos'>
