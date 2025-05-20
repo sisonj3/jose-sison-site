@@ -58,7 +58,7 @@ export default function Home() {
                 <div className='flex_gap justify_center'>
                     <a href="https://github.com/sisonj3">GitHub</a>
                     <a href="https://www.linkedin.com/in/jose-aurelio-sison-34379326b/">LinkedIn</a>
-                    <a href="https://drive.google.com/file/d/138lc0DMG8xH6Ih0mDE89AgiqvoZfDtVu/view?usp=sharing">Resume</a>
+                    <a href="https://drive.google.com/file/d/1HWqLyTf5oVfz-iFrDUCPOdikYGZElZTd/view?usp=sharing">Resume</a>
                 </div>
                 
             </footer>
