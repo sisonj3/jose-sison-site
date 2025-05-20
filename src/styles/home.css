@@ -3,6 +3,7 @@
 }
 
 .grid-container {
+    margin: auto;
     width: fit-content;
 }
 
