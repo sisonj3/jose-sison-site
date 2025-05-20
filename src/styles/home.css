@@ -2,21 +2,14 @@
     text-align: center;
 }
 
-main {
-    width: 100%;
-}
-
 .zzz_sc {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     gap: 5px;
-
-    width: 100%;
 }
 
 .zzz_sc img {
-    width: 100%;
     max-width: 500px;
     height: auto;
 }
